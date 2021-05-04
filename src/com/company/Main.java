@@ -24,11 +24,33 @@ public class Main {
 
 
 
-        Dog bulldog = new Dog("Brown", new SHELTER() "Bagira", "Bulldog")
+        Dog bulldog = new Dog("Brown", new SHELTER("Shelter","Centre"),
+                "Bagira", "Bulldog");
 
+        Dog Taygan =new Dog("Black", new SHELTER("Shelter","Centre"),
+                "uchkun", "Taygan");
+
+        Dog Layka = new Dog("white", new SHELTER("Shelter","Centre"),
+                "Tangens", "Layka");
+
+
+
+        Nissan Caldina = new Nissan("caldina ", 2014, Color.Black,"3");
+        System.out.println(Caldina.getInfo());
+        Caldina.makeLoud("Fuuup");
+        Caldina.speed(190);
+
+
+        Mitsubisi Type = new Mitsubisi("Type", 2015, Color.Brown, "3,5");
+        System.out.println(Caldina.getInfo());
+
+
+        Mitsubisi legend  = new Mitsubisi("legend", 2016, Color.Gray, "4.3");
+        System.out.println("Mitsubisi");
 
 
 
 
     }
+
 }
